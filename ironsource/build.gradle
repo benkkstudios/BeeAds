@@ -1,0 +1,17 @@
+apply from: "${rootProject.projectDir}/library.gradle"
+android {
+    namespace 'com.benkkstudios.ads.iron'
+    buildFeatures {
+        compose true
+        viewBinding true
+    }
+}
+
+dependencies {
+    implementation(project(":shared"))
+    api libs.mediationsdk
+    api libs.adqualitysdk
+    implementation libs.play.services.appset
+    implementation libs.play.services.ads.identifier
+    implementation libs.play.services.basement
+}

@@ -1,0 +1,14 @@
+# Project exclude paths
+/.gradle/
+/admob/build/
+/app/build/
+/build/
+/core/build/
+/core/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/
+/ironsource/build/
+/max/build/
+/startapp/build/
+/unity/build/
+/wortise/build/
+/yandex/build/
+/.idea/

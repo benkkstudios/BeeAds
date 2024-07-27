@@ -1,0 +1,233 @@
+<com.google.android.gms.ads.nativead.NativeAdView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:id="@+id/native_ad_view"
+    android:visibility="gone"
+    android:background="#00000000">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_centerInParent="true"
+        android:padding="5dp"
+        android:id="@+id/background">
+
+        <com.google.android.gms.ads.nativead.MediaView
+            android:id="@+id/media_view"
+            android:layout_margin="@dimen/gnt_no_size"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="@dimen/gnt_no_margin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/middle" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_height="60dp"
+            android:layout_marginTop="@dimen/gnt_small_margin"
+            android:layout_width="match_parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/media_view"
+            app:layout_constraintBottom_toTopOf="@+id/body"
+            android:id="@+id/middle">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+
+                android:layout_width="@dimen/gnt_no_size"
+                android:layout_height="@dimen/gnt_no_size"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:orientation="horizontal">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardImage"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_margin="5dp"
+                    app:cardElevation="3dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/content">
+
+                    <ImageView
+                        android:id="@+id/icon"
+                        android:layout_width="56dp"
+                        android:layout_height="56dp"
+                        android:src="@drawable/benkkstudio"
+                        android:contentDescription="@null" />
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="@dimen/gnt_no_size"
+                    android:layout_height="@dimen/gnt_no_size"
+                    android:orientation="vertical"
+                    android:id="@+id/content"
+                    android:layout_marginStart="@dimen/gnt_default_margin"
+                    android:layout_marginLeft="@dimen/gnt_default_margin"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toEndOf="@id/cardImage"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <LinearLayout
+                        android:id="@+id/headline"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/gnt_no_size"
+                        android:layout_weight="0.5"
+                        android:gravity="left"
+                        android:background="@android:color/transparent"
+                        app:layout_constraintBottom_toTopOf="@+id/row_two"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <TextView
+                            android:id="@+id/primary"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/gnt_text_size_large"
+                            android:textColor="@color/gray"
+                            android:fontFamily="@font/regular"
+                            android:lines="1"
+                            android:layout_height="match_parent"
+                            android:layout_width="wrap_content"
+                            android:layout_marginTop="@dimen/gnt_no_margin"
+                            android:layout_marginBottom="@dimen/gnt_no_margin"
+                            android:layout_marginStart="@dimen/gnt_no_margin"
+                            android:layout_marginEnd="@dimen/gnt_no_margin"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/row_two"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/gnt_no_size"
+                        android:layout_weight="0.5"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/headline">
+
+                        <TextView
+                            android:background="@drawable/ad_mark_background"
+                            android:layout_width="@dimen/gnt_ad_indicator_width"
+                            android:gravity="center"
+                            android:id="@+id/ad_notification_view"
+                            android:layout_height="@dimen/gnt_ad_indicator_height"
+                            android:layout_marginTop="@dimen/gnt_ad_indicator_top_margin"
+                            android:layout_marginStart="@dimen/gnt_no_margin"
+                            android:layout_marginEnd="@dimen/gnt_default_margin"
+                            android:text="Ad"
+                            android:fontFamily="@font/regular"
+                            android:textColor="@color/green"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/gnt_ad_indicator_text_size"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <com.benkkstudios.ads.ratingbar.MaterialRatingBar
+                            android:id="@+id/rating_bar"
+                            style="@style/Widget.MaterialRatingBar.RatingBar.Small"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/gnt_text_size_small"
+                            android:rating="2.5"
+                            android:stepSize="0.01"
+                            app:mrb_progressTint="#FFCC66"
+                            app:mrb_secondaryProgressTint="#FFCC66"
+                            android:layout_marginTop="@dimen/gnt_no_margin"
+                            android:layout_marginBottom="@dimen/gnt_no_margin"
+                            android:layout_marginStart="@dimen/gnt_no_margin"
+                            android:layout_marginEnd="@dimen/gnt_no_margin"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/ad_notification_view"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/secondary"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="top"
+                            android:textSize="@dimen/gnt_text_size_small"
+                            android:textColor="@color/gray"
+                            android:lines="1"
+                            android:layout_marginTop="@dimen/gnt_no_margin"
+                            android:layout_marginBottom="@dimen/gnt_no_margin"
+                            android:layout_marginStart="@dimen/gnt_no_margin"
+                            android:layout_marginEnd="@dimen/gnt_no_margin"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/ad_notification_view"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                    </LinearLayout>
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/gnt_no_size"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/gnt_default_margin"
+            android:paddingLeft="@dimen/gnt_default_margin"
+            android:id="@+id/body"
+            android:fontFamily="@font/medium"
+            app:layout_constraintBottom_toTopOf="@+id/cardCta"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/middle"
+            android:paddingStart="@dimen/gnt_default_margin"
+            android:layout_marginBottom="@dimen/gnt_small_margin" />
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardCta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            app:cardBackgroundColor="@color/blue"
+            android:clipChildren="true"
+            app:cardElevation="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/body">
+
+            <TextView
+                android:id="@+id/cta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginVertical="12dp" />
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.gms.ads.nativead.NativeAdView>

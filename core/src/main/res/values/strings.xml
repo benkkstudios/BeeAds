@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="native_ad_title_text">Yandex.Browser for iPhone and Android</string>
+    <string name="native_ad_body_text">Your bookmarks and favorite sites are available to you on any device with Yandex.Browser. You will never lose them, even if you lose your device or break it.</string>
+    <string name="native_ad_domain_text">https://browser.yandex.com</string>
+    <string name="native_ad_sponsored_text">Yandex.Direct</string>
+    <string name="native_ad_age_text">16+ </string>
+    <string name="native_ad_warning_text">We strongly recommend avoiding this type of website and not clicking the Ignore this warning button!</string>
+    <string name="native_ad_call_to_action_text">Install</string>
+    <string name="native_appinstall_price_text">Free</string>
+</resources>

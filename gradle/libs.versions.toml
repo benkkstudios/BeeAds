@@ -1,0 +1,63 @@
+[versions]
+adqualitysdk = "7.20.2"
+agp = "8.5.1"
+androidSdk = "1.5.1"
+applovinSdk = "12.5.0"
+audienceNetworkSdk = "6.17.0"
+cardview = "1.0.0"
+constraintlayout = "2.1.4"
+dokkaGradlePlugin = "1.9.20"
+inappSdk = "5.0.2"
+kotlin = "1.9.23"
+coreKtx = "1.13.1"
+materialVersion = "1.6.8"
+lifecycleRuntimeKtx = "2.8.3"
+activityCompose = "1.9.0"
+material = "1.12.0"
+material3 = "1.3.0-beta04"
+mediationsdk = "8.2.1"
+mobileads = "7.2.0"
+playServicesAds = "23.2.0"
+lifecycleProcess = "2.8.3"
+playServicesAdsIdentifier = "18.1.0"
+playServicesAppset = "16.1.0"
+playServicesBasement = "18.4.0"
+uiViewbinding = "1.6.8"
+unityAds = "4.9.2"
+vanniktech = "0.29.0"
+appcompat = "1.7.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+[libraries]
+adqualitysdk = { module = "com.ironsource:adqualitysdk", version.ref = "adqualitysdk" }
+dokka-gradle-plugin = { module = "org.jetbrains.dokka:dokka-gradle-plugin", version.ref = "dokkaGradlePlugin" }
+wortise-android-sdk = { module = "com.wortise:android-sdk", version.ref = "androidSdk" }
+androidx-cardview = { module = "androidx.cardview:cardview", version.ref = "cardview" }
+androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-material = { module = "androidx.compose.material:material", version.ref = "materialVersion" }
+applovin-sdk = { module = "com.applovin:applovin-sdk", version.ref = "applovinSdk" }
+audience-network-sdk = { module = "com.facebook.android:audience-network-sdk", version.ref = "audienceNetworkSdk" }
+inapp-sdk = { module = "com.startapp:inapp-sdk", version.ref = "inappSdk" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
+material3 = { module = "androidx.compose.material3:material3", version.ref = "material3" }
+mediationsdk = { module = "com.ironsource.sdk:mediationsdk", version.ref = "mediationsdk" }
+mobileads = { module = "com.yandex.android:mobileads", version.ref = "mobileads" }
+play-services-ads = { module = "com.google.android.gms:play-services-ads", version.ref = "playServicesAds" }
+androidx-lifecycle-process = { group = "androidx.lifecycle", name = "lifecycle-process", version.ref = "lifecycleProcess" }
+androidx-ui-viewbinding = { group = "androidx.compose.ui", name = "ui-viewbinding", version.ref = "uiViewbinding" }
+play-services-ads-identifier = { module = "com.google.android.gms:play-services-ads-identifier", version.ref = "playServicesAdsIdentifier" }
+play-services-appset = { module = "com.google.android.gms:play-services-appset", version.ref = "playServicesAppset" }
+play-services-basement = { module = "com.google.android.gms:play-services-basement", version.ref = "playServicesBasement" }
+unity-ads = { module = "com.unity3d.ads:unity-ads", version.ref = "unityAds" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+vanniktech-maven-publish = { id = "com.vanniktech.maven.publish", version.ref = "vanniktech" }
+

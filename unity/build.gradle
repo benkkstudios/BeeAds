@@ -1,0 +1,13 @@
+apply from: "${rootProject.projectDir}/library.gradle"
+android {
+    namespace 'com.benkkstudios.ads.unity'
+    buildFeatures {
+        compose true
+        viewBinding true
+    }
+}
+
+dependencies {
+    implementation(project(":shared"))
+    implementation libs.unity.ads
+}

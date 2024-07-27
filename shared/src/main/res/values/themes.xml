@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.Material3.DayNight">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">?colorSurface</item>
+    </style>
+
+    <style name="NavigationItemTextView" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:padding">@dimen/item_padding</item>
+        <item name="android:textSize">@dimen/navigation_item_text_size</item>
+    </style>
+</resources>

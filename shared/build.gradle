@@ -1,0 +1,24 @@
+apply from: "${rootProject.projectDir}/library.gradle"
+android {
+    namespace 'com.benkkstudios.ads.shared'
+    buildFeatures {
+        compose = true
+        buildConfig = true
+    }
+}
+
+dependencies {
+    api project(":ratingbar")
+    api libs.androidx.core.ktx
+    api libs.androidx.lifecycle.runtime.ktx
+    api libs.androidx.activity.compose
+    api libs.androidx.constraintlayout
+    api libs.androidx.cardview
+    runtimeOnly libs.androidx.appcompat
+    api libs.material
+    api libs.androidx.lifecycle.process
+    api libs.androidx.material
+    api libs.androidx.ui.viewbinding
+    api libs.material3
+    implementation libs.play.services.ads
+}

@@ -1,0 +1,1092 @@
+[
+  {
+    "name": "ADAPTIVE",
+    "description": "com.benkkstudios.ads.core.BannerSize.ADAPTIVE",
+    "location": "core/com.benkkstudios.ads.core/-banner-size/-a-d-a-p-t-i-v-e/index.html",
+    "searchKeys": [
+      "ADAPTIVE",
+      "ADAPTIVE",
+      "com.benkkstudios.ads.core.BannerSize.ADAPTIVE"
+    ]
+  },
+  {
+    "name": "ADMOB",
+    "description": "com.benkkstudios.ads.core.AdsCompany.ADMOB",
+    "location": "core/com.benkkstudios.ads.core/-ads-company/-a-d-m-o-b/index.html",
+    "searchKeys": [
+      "ADMOB",
+      "ADMOB",
+      "com.benkkstudios.ads.core.AdsCompany.ADMOB"
+    ]
+  },
+  {
+    "name": "ADMOB_MANAGER",
+    "description": "com.benkkstudios.ads.core.AdsCompany.ADMOB_MANAGER",
+    "location": "core/com.benkkstudios.ads.core/-ads-company/-a-d-m-o-b_-m-a-n-a-g-e-r/index.html",
+    "searchKeys": [
+      "ADMOB_MANAGER",
+      "ADMOB_MANAGER",
+      "com.benkkstudios.ads.core.AdsCompany.ADMOB_MANAGER"
+    ]
+  },
+  {
+    "name": "APPLOVIN",
+    "description": "com.benkkstudios.ads.core.AdsCompany.APPLOVIN",
+    "location": "core/com.benkkstudios.ads.core/-ads-company/-a-p-p-l-o-v-i-n/index.html",
+    "searchKeys": [
+      "APPLOVIN",
+      "APPLOVIN",
+      "com.benkkstudios.ads.core.AdsCompany.APPLOVIN"
+    ]
+  },
+  {
+    "name": "BANNER",
+    "description": "com.benkkstudios.ads.core.BannerSize.BANNER",
+    "location": "core/com.benkkstudios.ads.core/-banner-size/-b-a-n-n-e-r/index.html",
+    "searchKeys": [
+      "BANNER",
+      "BANNER",
+      "com.benkkstudios.ads.core.BannerSize.BANNER"
+    ]
+  },
+  {
+    "name": "DISABLE",
+    "description": "com.benkkstudios.ads.core.AdsCompany.DISABLE",
+    "location": "core/com.benkkstudios.ads.core/-ads-company/-d-i-s-a-b-l-e/index.html",
+    "searchKeys": [
+      "DISABLE",
+      "DISABLE",
+      "com.benkkstudios.ads.core.AdsCompany.DISABLE"
+    ]
+  },
+  {
+    "name": "FULL_BANNER",
+    "description": "com.benkkstudios.ads.core.BannerSize.FULL_BANNER",
+    "location": "core/com.benkkstudios.ads.core/-banner-size/-f-u-l-l_-b-a-n-n-e-r/index.html",
+    "searchKeys": [
+      "FULL_BANNER",
+      "FULL_BANNER",
+      "com.benkkstudios.ads.core.BannerSize.FULL_BANNER"
+    ]
+  },
+  {
+    "name": "IRONSOURCE",
+    "description": "com.benkkstudios.ads.core.AdsCompany.IRONSOURCE",
+    "location": "core/com.benkkstudios.ads.core/-ads-company/-i-r-o-n-s-o-u-r-c-e/index.html",
+    "searchKeys": [
+      "IRONSOURCE",
+      "IRONSOURCE",
+      "com.benkkstudios.ads.core.AdsCompany.IRONSOURCE"
+    ]
+  },
+  {
+    "name": "LARGE_BANNER",
+    "description": "com.benkkstudios.ads.core.BannerSize.LARGE_BANNER",
+    "location": "core/com.benkkstudios.ads.core/-banner-size/-l-a-r-g-e_-b-a-n-n-e-r/index.html",
+    "searchKeys": [
+      "LARGE_BANNER",
+      "LARGE_BANNER",
+      "com.benkkstudios.ads.core.BannerSize.LARGE_BANNER"
+    ]
+  },
+  {
+    "name": "LEADERBOARD",
+    "description": "com.benkkstudios.ads.core.BannerSize.LEADERBOARD",
+    "location": "core/com.benkkstudios.ads.core/-banner-size/-l-e-a-d-e-r-b-o-a-r-d/index.html",
+    "searchKeys": [
+      "LEADERBOARD",
+      "LEADERBOARD",
+      "com.benkkstudios.ads.core.BannerSize.LEADERBOARD"
+    ]
+  },
+  {
+    "name": "MEDIUM",
+    "description": "com.benkkstudios.ads.core.enums.NativeSize.MEDIUM",
+    "location": "core/com.benkkstudios.ads.core.enums/-native-size/-m-e-d-i-u-m/index.html",
+    "searchKeys": [
+      "MEDIUM",
+      "MEDIUM",
+      "com.benkkstudios.ads.core.enums.NativeSize.MEDIUM"
+    ]
+  },
+  {
+    "name": "MEDIUM_RECTANGLE",
+    "description": "com.benkkstudios.ads.core.BannerSize.MEDIUM_RECTANGLE",
+    "location": "core/com.benkkstudios.ads.core/-banner-size/-m-e-d-i-u-m_-r-e-c-t-a-n-g-l-e/index.html",
+    "searchKeys": [
+      "MEDIUM_RECTANGLE",
+      "MEDIUM_RECTANGLE",
+      "com.benkkstudios.ads.core.BannerSize.MEDIUM_RECTANGLE"
+    ]
+  },
+  {
+    "name": "META",
+    "description": "com.benkkstudios.ads.core.AdsCompany.META",
+    "location": "core/com.benkkstudios.ads.core/-ads-company/-m-e-t-a/index.html",
+    "searchKeys": [
+      "META",
+      "META",
+      "com.benkkstudios.ads.core.AdsCompany.META"
+    ]
+  },
+  {
+    "name": "PRIMARY",
+    "description": "com.benkkstudios.ads.core.enums.ProviderType.PRIMARY",
+    "location": "core/com.benkkstudios.ads.core.enums/-provider-type/-p-r-i-m-a-r-y/index.html",
+    "searchKeys": [
+      "PRIMARY",
+      "PRIMARY",
+      "com.benkkstudios.ads.core.enums.ProviderType.PRIMARY"
+    ]
+  },
+  {
+    "name": "SECONDARY",
+    "description": "com.benkkstudios.ads.core.enums.ProviderType.SECONDARY",
+    "location": "core/com.benkkstudios.ads.core.enums/-provider-type/-s-e-c-o-n-d-a-r-y/index.html",
+    "searchKeys": [
+      "SECONDARY",
+      "SECONDARY",
+      "com.benkkstudios.ads.core.enums.ProviderType.SECONDARY"
+    ]
+  },
+  {
+    "name": "SMALL",
+    "description": "com.benkkstudios.ads.core.enums.NativeSize.SMALL",
+    "location": "core/com.benkkstudios.ads.core.enums/-native-size/-s-m-a-l-l/index.html",
+    "searchKeys": [
+      "SMALL",
+      "SMALL",
+      "com.benkkstudios.ads.core.enums.NativeSize.SMALL"
+    ]
+  },
+  {
+    "name": "STARTAPP",
+    "description": "com.benkkstudios.ads.core.AdsCompany.STARTAPP",
+    "location": "core/com.benkkstudios.ads.core/-ads-company/-s-t-a-r-t-a-p-p/index.html",
+    "searchKeys": [
+      "STARTAPP",
+      "STARTAPP",
+      "com.benkkstudios.ads.core.AdsCompany.STARTAPP"
+    ]
+  },
+  {
+    "name": "UNITY",
+    "description": "com.benkkstudios.ads.core.AdsCompany.UNITY",
+    "location": "core/com.benkkstudios.ads.core/-ads-company/-u-n-i-t-y/index.html",
+    "searchKeys": [
+      "UNITY",
+      "UNITY",
+      "com.benkkstudios.ads.core.AdsCompany.UNITY"
+    ]
+  },
+  {
+    "name": "WORTISE",
+    "description": "com.benkkstudios.ads.core.AdsCompany.WORTISE",
+    "location": "core/com.benkkstudios.ads.core/-ads-company/-w-o-r-t-i-s-e/index.html",
+    "searchKeys": [
+      "WORTISE",
+      "WORTISE",
+      "com.benkkstudios.ads.core.AdsCompany.WORTISE"
+    ]
+  },
+  {
+    "name": "YANDEX",
+    "description": "com.benkkstudios.ads.core.AdsCompany.YANDEX",
+    "location": "core/com.benkkstudios.ads.core/-ads-company/-y-a-n-d-e-x/index.html",
+    "searchKeys": [
+      "YANDEX",
+      "YANDEX",
+      "com.benkkstudios.ads.core.AdsCompany.YANDEX"
+    ]
+  },
+  {
+    "name": "abstract class BaseFactory(var unit: ProviderUnit)",
+    "description": "com.benkkstudios.ads.core.base.BaseFactory",
+    "location": "core/com.benkkstudios.ads.core.base/-base-factory/index.html",
+    "searchKeys": [
+      "BaseFactory",
+      "abstract class BaseFactory(var unit: ProviderUnit)",
+      "com.benkkstudios.ads.core.base.BaseFactory"
+    ]
+  },
+  {
+    "name": "abstract fun setCompany(): AdsCompany",
+    "description": "com.benkkstudios.ads.core.base.BaseFactory.setCompany",
+    "location": "core/com.benkkstudios.ads.core.base/-base-factory/set-company.html",
+    "searchKeys": [
+      "setCompany",
+      "abstract fun setCompany(): AdsCompany",
+      "com.benkkstudios.ads.core.base.BaseFactory.setCompany"
+    ]
+  },
+  {
+    "name": "abstract fun showInterstitial(activity: Activity, onSuccess: () -> Unit?, onError: (String) -> Unit?)",
+    "description": "com.benkkstudios.ads.core.base.BaseFactory.showInterstitial",
+    "location": "core/com.benkkstudios.ads.core.base/-base-factory/show-interstitial.html",
+    "searchKeys": [
+      "showInterstitial",
+      "abstract fun showInterstitial(activity: Activity, onSuccess: () -> Unit?, onError: (String) -> Unit?)",
+      "com.benkkstudios.ads.core.base.BaseFactory.showInterstitial"
+    ]
+  },
+  {
+    "name": "abstract fun showOpenAd(activity: Activity, onFailedToShow: () -> Unit? = null)",
+    "description": "com.benkkstudios.ads.core.base.BaseFactory.showOpenAd",
+    "location": "core/com.benkkstudios.ads.core.base/-base-factory/show-open-ad.html",
+    "searchKeys": [
+      "showOpenAd",
+      "abstract fun showOpenAd(activity: Activity, onFailedToShow: () -> Unit? = null)",
+      "com.benkkstudios.ads.core.base.BaseFactory.showOpenAd"
+    ]
+  },
+  {
+    "name": "abstract fun showReward(activity: Activity, onSuccess: () -> Unit?, onError: (String) -> Unit?)",
+    "description": "com.benkkstudios.ads.core.base.BaseFactory.showReward",
+    "location": "core/com.benkkstudios.ads.core.base/-base-factory/show-reward.html",
+    "searchKeys": [
+      "showReward",
+      "abstract fun showReward(activity: Activity, onSuccess: () -> Unit?, onError: (String) -> Unit?)",
+      "com.benkkstudios.ads.core.base.BaseFactory.showReward"
+    ]
+  },
+  {
+    "name": "class BeeAds(activity: Activity, builder: BeeAds.Bulder)",
+    "description": "com.benkkstudios.ads.core.BeeAds",
+    "location": "core/com.benkkstudios.ads.core/-bee-ads/index.html",
+    "searchKeys": [
+      "BeeAds",
+      "class BeeAds(activity: Activity, builder: BeeAds.Bulder)",
+      "com.benkkstudios.ads.core.BeeAds"
+    ]
+  },
+  {
+    "name": "class Bulder(activity: Activity)",
+    "description": "com.benkkstudios.ads.core.BeeAds.Bulder",
+    "location": "core/com.benkkstudios.ads.core/-bee-ads/-bulder/index.html",
+    "searchKeys": [
+      "Bulder",
+      "class Bulder(activity: Activity)",
+      "com.benkkstudios.ads.core.BeeAds.Bulder"
+    ]
+  },
+  {
+    "name": "constructor(activity: Activity)",
+    "description": "com.benkkstudios.ads.core.BeeAds.Bulder.Bulder",
+    "location": "core/com.benkkstudios.ads.core/-bee-ads/-bulder/-bulder.html",
+    "searchKeys": [
+      "Bulder",
+      "constructor(activity: Activity)",
+      "com.benkkstudios.ads.core.BeeAds.Bulder.Bulder"
+    ]
+  },
+  {
+    "name": "constructor(activity: Activity, builder: BeeAds.Bulder)",
+    "description": "com.benkkstudios.ads.core.BeeAds.BeeAds",
+    "location": "core/com.benkkstudios.ads.core/-bee-ads/-bee-ads.html",
+    "searchKeys": [
+      "BeeAds",
+      "constructor(activity: Activity, builder: BeeAds.Bulder)",
+      "com.benkkstudios.ads.core.BeeAds.BeeAds"
+    ]
+  },
+  {
+    "name": "constructor(constructor: () -> T)",
+    "description": "com.benkkstudios.ads.core.base.SingletonHolderSingle.SingletonHolderSingle",
+    "location": "core/com.benkkstudios.ads.core.base/-singleton-holder-single/-singleton-holder-single.html",
+    "searchKeys": [
+      "SingletonHolderSingle",
+      "constructor(constructor: () -> T)",
+      "com.benkkstudios.ads.core.base.SingletonHolderSingle.SingletonHolderSingle"
+    ]
+  },
+  {
+    "name": "constructor(constructor: (A) -> T)",
+    "description": "com.benkkstudios.ads.core.base.SingletonHolder.SingletonHolder",
+    "location": "core/com.benkkstudios.ads.core.base/-singleton-holder/-singleton-holder.html",
+    "searchKeys": [
+      "SingletonHolder",
+      "constructor(constructor: (A) -> T)",
+      "com.benkkstudios.ads.core.base.SingletonHolder.SingletonHolder"
+    ]
+  },
+  {
+    "name": "constructor(constructor: (A, B) -> T)",
+    "description": "com.benkkstudios.ads.core.base.SingletonTriple.SingletonTriple",
+    "location": "core/com.benkkstudios.ads.core.base/-singleton-triple/-singleton-triple.html",
+    "searchKeys": [
+      "SingletonTriple",
+      "constructor(constructor: (A, B) -> T)",
+      "com.benkkstudios.ads.core.base.SingletonTriple.SingletonTriple"
+    ]
+  },
+  {
+    "name": "constructor(key: String = \"\", banner: String = \"\", interstitial: String = \"\", native: String = \"\", open: String = \"\", reward: String = \"\")",
+    "description": "com.benkkstudios.ads.core.provider.ProviderUnit.ProviderUnit",
+    "location": "core/com.benkkstudios.ads.core.provider/-provider-unit/-provider-unit.html",
+    "searchKeys": [
+      "ProviderUnit",
+      "constructor(key: String = \"\", banner: String = \"\", interstitial: String = \"\", native: String = \"\", open: String = \"\", reward: String = \"\")",
+      "com.benkkstudios.ads.core.provider.ProviderUnit.ProviderUnit"
+    ]
+  },
+  {
+    "name": "constructor(unit: ProviderUnit)",
+    "description": "com.benkkstudios.ads.core.base.BaseFactory.BaseFactory",
+    "location": "core/com.benkkstudios.ads.core.base/-base-factory/-base-factory.html",
+    "searchKeys": [
+      "BaseFactory",
+      "constructor(unit: ProviderUnit)",
+      "com.benkkstudios.ads.core.base.BaseFactory.BaseFactory"
+    ]
+  },
+  {
+    "name": "constructor(width: Int, height: Int)",
+    "description": "com.benkkstudios.ads.core.BannerSize.BannerSizeModel.BannerSizeModel",
+    "location": "core/com.benkkstudios.ads.core/-banner-size/-banner-size-model/-banner-size-model.html",
+    "searchKeys": [
+      "BannerSizeModel",
+      "constructor(width: Int, height: Int)",
+      "com.benkkstudios.ads.core.BannerSize.BannerSizeModel.BannerSizeModel"
+    ]
+  },
+  {
+    "name": "data class BannerSizeModel(val width: Int, val height: Int)",
+    "description": "com.benkkstudios.ads.core.BannerSize.BannerSizeModel",
+    "location": "core/com.benkkstudios.ads.core/-banner-size/-banner-size-model/index.html",
+    "searchKeys": [
+      "BannerSizeModel",
+      "data class BannerSizeModel(val width: Int, val height: Int)",
+      "com.benkkstudios.ads.core.BannerSize.BannerSizeModel"
+    ]
+  },
+  {
+    "name": "enum AdsCompany : Enum<AdsCompany> ",
+    "description": "com.benkkstudios.ads.core.AdsCompany",
+    "location": "core/com.benkkstudios.ads.core/-ads-company/index.html",
+    "searchKeys": [
+      "AdsCompany",
+      "enum AdsCompany : Enum<AdsCompany> ",
+      "com.benkkstudios.ads.core.AdsCompany"
+    ]
+  },
+  {
+    "name": "enum BannerSize : Enum<BannerSize> ",
+    "description": "com.benkkstudios.ads.core.BannerSize",
+    "location": "core/com.benkkstudios.ads.core/-banner-size/index.html",
+    "searchKeys": [
+      "BannerSize",
+      "enum BannerSize : Enum<BannerSize> ",
+      "com.benkkstudios.ads.core.BannerSize"
+    ]
+  },
+  {
+    "name": "enum NativeSize : Enum<NativeSize> ",
+    "description": "com.benkkstudios.ads.core.enums.NativeSize",
+    "location": "core/com.benkkstudios.ads.core.enums/-native-size/index.html",
+    "searchKeys": [
+      "NativeSize",
+      "enum NativeSize : Enum<NativeSize> ",
+      "com.benkkstudios.ads.core.enums.NativeSize"
+    ]
+  },
+  {
+    "name": "enum ProviderType : Enum<ProviderType> ",
+    "description": "com.benkkstudios.ads.core.enums.ProviderType",
+    "location": "core/com.benkkstudios.ads.core.enums/-provider-type/index.html",
+    "searchKeys": [
+      "ProviderType",
+      "enum ProviderType : Enum<ProviderType> ",
+      "com.benkkstudios.ads.core.enums.ProviderType"
+    ]
+  },
+  {
+    "name": "fun Activity.showInterstitial(onSuccess: () -> Unit? = null)",
+    "description": "com.benkkstudios.ads.core.showInterstitial",
+    "location": "core/com.benkkstudios.ads.core/show-interstitial.html",
+    "searchKeys": [
+      "showInterstitial",
+      "fun Activity.showInterstitial(onSuccess: () -> Unit? = null)",
+      "com.benkkstudios.ads.core.showInterstitial"
+    ]
+  },
+  {
+    "name": "fun Activity.showInterstitialWithCount(onSuccess: () -> Unit? = null)",
+    "description": "com.benkkstudios.ads.core.showInterstitialWithCount",
+    "location": "core/com.benkkstudios.ads.core/show-interstitial-with-count.html",
+    "searchKeys": [
+      "showInterstitialWithCount",
+      "fun Activity.showInterstitialWithCount(onSuccess: () -> Unit? = null)",
+      "com.benkkstudios.ads.core.showInterstitialWithCount"
+    ]
+  },
+  {
+    "name": "fun Activity.showReward(onSuccess: () -> Unit? = null)",
+    "description": "com.benkkstudios.ads.core.showReward",
+    "location": "core/com.benkkstudios.ads.core/show-reward.html",
+    "searchKeys": [
+      "showReward",
+      "fun Activity.showReward(onSuccess: () -> Unit? = null)",
+      "com.benkkstudios.ads.core.showReward"
+    ]
+  },
+  {
+    "name": "fun BannerAdCompose(size: BannerSize? = null)",
+    "description": "com.benkkstudios.ads.core.BannerAdCompose",
+    "location": "core/com.benkkstudios.ads.core/-banner-ad-compose.html",
+    "searchKeys": [
+      "BannerAdCompose",
+      "fun BannerAdCompose(size: BannerSize? = null)",
+      "com.benkkstudios.ads.core.BannerAdCompose"
+    ]
+  },
+  {
+    "name": "fun BannerCompose(size: BannerSize? = null)",
+    "description": "com.benkkstudios.ads.core.BeeAds.Companion.BannerCompose",
+    "location": "core/com.benkkstudios.ads.core/-bee-ads/-companion/-banner-compose.html",
+    "searchKeys": [
+      "BannerCompose",
+      "fun BannerCompose(size: BannerSize? = null)",
+      "com.benkkstudios.ads.core.BeeAds.Companion.BannerCompose"
+    ]
+  },
+  {
+    "name": "fun Context.showInterstitial(onSuccess: () -> Unit? = null): Result<Unit>",
+    "description": "com.benkkstudios.ads.core.showInterstitial",
+    "location": "core/com.benkkstudios.ads.core/show-interstitial.html",
+    "searchKeys": [
+      "showInterstitial",
+      "fun Context.showInterstitial(onSuccess: () -> Unit? = null): Result<Unit>",
+      "com.benkkstudios.ads.core.showInterstitial"
+    ]
+  },
+  {
+    "name": "fun Context.showInterstitialWithCount(onSuccess: () -> Unit? = null): Result<Unit>",
+    "description": "com.benkkstudios.ads.core.showInterstitialWithCount",
+    "location": "core/com.benkkstudios.ads.core/show-interstitial-with-count.html",
+    "searchKeys": [
+      "showInterstitialWithCount",
+      "fun Context.showInterstitialWithCount(onSuccess: () -> Unit? = null): Result<Unit>",
+      "com.benkkstudios.ads.core.showInterstitialWithCount"
+    ]
+  },
+  {
+    "name": "fun Context.showReward(onSuccess: () -> Unit? = null): Result<Unit>",
+    "description": "com.benkkstudios.ads.core.showReward",
+    "location": "core/com.benkkstudios.ads.core/show-reward.html",
+    "searchKeys": [
+      "showReward",
+      "fun Context.showReward(onSuccess: () -> Unit? = null): Result<Unit>",
+      "com.benkkstudios.ads.core.showReward"
+    ]
+  },
+  {
+    "name": "fun NativeAdCompose(size: NativeSize? = null)",
+    "description": "com.benkkstudios.ads.core.NativeAdCompose",
+    "location": "core/com.benkkstudios.ads.core/-native-ad-compose.html",
+    "searchKeys": [
+      "NativeAdCompose",
+      "fun NativeAdCompose(size: NativeSize? = null)",
+      "com.benkkstudios.ads.core.NativeAdCompose"
+    ]
+  },
+  {
+    "name": "fun NativeCompose(size: NativeSize? = null)",
+    "description": "com.benkkstudios.ads.core.BeeAds.Companion.NativeCompose",
+    "location": "core/com.benkkstudios.ads.core/-bee-ads/-companion/-native-compose.html",
+    "searchKeys": [
+      "NativeCompose",
+      "fun NativeCompose(size: NativeSize? = null)",
+      "com.benkkstudios.ads.core.BeeAds.Companion.NativeCompose"
+    ]
+  },
+  {
+    "name": "fun appOpen(application: Application): BeeAds.Bulder",
+    "description": "com.benkkstudios.ads.core.BeeAds.Bulder.appOpen",
+    "location": "core/com.benkkstudios.ads.core/-bee-ads/-bulder/app-open.html",
+    "searchKeys": [
+      "appOpen",
+      "fun appOpen(application: Application): BeeAds.Bulder",
+      "com.benkkstudios.ads.core.BeeAds.Bulder.appOpen"
+    ]
+  },
+  {
+    "name": "fun build(): BeeAds",
+    "description": "com.benkkstudios.ads.core.BeeAds.Bulder.build",
+    "location": "core/com.benkkstudios.ads.core/-bee-ads/-bulder/build.html",
+    "searchKeys": [
+      "build",
+      "fun build(): BeeAds",
+      "com.benkkstudios.ads.core.BeeAds.Bulder.build"
+    ]
+  },
+  {
+    "name": "fun build(activity: Activity): BannerSize.BannerSizeModel",
+    "description": "com.benkkstudios.ads.core.BannerSize.build",
+    "location": "core/com.benkkstudios.ads.core/-banner-size/build.html",
+    "searchKeys": [
+      "build",
+      "fun build(activity: Activity): BannerSize.BannerSizeModel",
+      "com.benkkstudios.ads.core.BannerSize.build"
+    ]
+  },
+  {
+    "name": "fun debugMode(debugMode: Boolean): BeeAds.Bulder",
+    "description": "com.benkkstudios.ads.core.BeeAds.Bulder.debugMode",
+    "location": "core/com.benkkstudios.ads.core/-bee-ads/-bulder/debug-mode.html",
+    "searchKeys": [
+      "debugMode",
+      "fun debugMode(debugMode: Boolean): BeeAds.Bulder",
+      "com.benkkstudios.ads.core.BeeAds.Bulder.debugMode"
+    ]
+  },
+  {
+    "name": "fun getInstance(): T",
+    "description": "com.benkkstudios.ads.core.base.SingletonHolderSingle.getInstance",
+    "location": "core/com.benkkstudios.ads.core.base/-singleton-holder-single/get-instance.html",
+    "searchKeys": [
+      "getInstance",
+      "fun getInstance(): T",
+      "com.benkkstudios.ads.core.base.SingletonHolderSingle.getInstance"
+    ]
+  },
+  {
+    "name": "fun getInstance(a: A, b: B): T",
+    "description": "com.benkkstudios.ads.core.base.SingletonTriple.getInstance",
+    "location": "core/com.benkkstudios.ads.core.base/-singleton-triple/get-instance.html",
+    "searchKeys": [
+      "getInstance",
+      "fun getInstance(a: A, b: B): T",
+      "com.benkkstudios.ads.core.base.SingletonTriple.getInstance"
+    ]
+  },
+  {
+    "name": "fun getInstance(arg: A): T",
+    "description": "com.benkkstudios.ads.core.base.SingletonHolder.getInstance",
+    "location": "core/com.benkkstudios.ads.core.base/-singleton-holder/get-instance.html",
+    "searchKeys": [
+      "getInstance",
+      "fun getInstance(arg: A): T",
+      "com.benkkstudios.ads.core.base.SingletonHolder.getInstance"
+    ]
+  },
+  {
+    "name": "fun height(activity: Activity): Int",
+    "description": "com.benkkstudios.ads.core.BannerSize.height",
+    "location": "core/com.benkkstudios.ads.core/-banner-size/height.html",
+    "searchKeys": [
+      "height",
+      "fun height(activity: Activity): Int",
+      "com.benkkstudios.ads.core.BannerSize.height"
+    ]
+  },
+  {
+    "name": "fun interval(interval: Int): BeeAds.Bulder",
+    "description": "com.benkkstudios.ads.core.BeeAds.Bulder.interval",
+    "location": "core/com.benkkstudios.ads.core/-bee-ads/-bulder/interval.html",
+    "searchKeys": [
+      "interval",
+      "fun interval(interval: Int): BeeAds.Bulder",
+      "com.benkkstudios.ads.core.BeeAds.Bulder.interval"
+    ]
+  },
+  {
+    "name": "fun layoutParams(activity: Activity): ViewGroup.LayoutParams",
+    "description": "com.benkkstudios.ads.core.BannerSize.layoutParams",
+    "location": "core/com.benkkstudios.ads.core/-banner-size/layout-params.html",
+    "searchKeys": [
+      "layoutParams",
+      "fun layoutParams(activity: Activity): ViewGroup.LayoutParams",
+      "com.benkkstudios.ads.core.BannerSize.layoutParams"
+    ]
+  },
+  {
+    "name": "fun logging(value: Any)",
+    "description": "com.benkkstudios.ads.core.logging",
+    "location": "core/com.benkkstudios.ads.core/logging.html",
+    "searchKeys": [
+      "logging",
+      "fun logging(value: Any)",
+      "com.benkkstudios.ads.core.logging"
+    ]
+  },
+  {
+    "name": "fun maxNativeVariant(maxNativeVariant: Int): BeeAds.Bulder",
+    "description": "com.benkkstudios.ads.core.BeeAds.Bulder.maxNativeVariant",
+    "location": "core/com.benkkstudios.ads.core/-bee-ads/-bulder/max-native-variant.html",
+    "searchKeys": [
+      "maxNativeVariant",
+      "fun maxNativeVariant(maxNativeVariant: Int): BeeAds.Bulder",
+      "com.benkkstudios.ads.core.BeeAds.Bulder.maxNativeVariant"
+    ]
+  },
+  {
+    "name": "fun showInterstitial(activity: Activity, onSuccess: () -> Unit? = null)",
+    "description": "com.benkkstudios.ads.core.BeeAds.Companion.showInterstitial",
+    "location": "core/com.benkkstudios.ads.core/-bee-ads/-companion/show-interstitial.html",
+    "searchKeys": [
+      "showInterstitial",
+      "fun showInterstitial(activity: Activity, onSuccess: () -> Unit? = null)",
+      "com.benkkstudios.ads.core.BeeAds.Companion.showInterstitial"
+    ]
+  },
+  {
+    "name": "fun showInterstitialWithCount(activity: Activity, onSuccess: () -> Unit? = null)",
+    "description": "com.benkkstudios.ads.core.BeeAds.Companion.showInterstitialWithCount",
+    "location": "core/com.benkkstudios.ads.core/-bee-ads/-companion/show-interstitial-with-count.html",
+    "searchKeys": [
+      "showInterstitialWithCount",
+      "fun showInterstitialWithCount(activity: Activity, onSuccess: () -> Unit? = null)",
+      "com.benkkstudios.ads.core.BeeAds.Companion.showInterstitialWithCount"
+    ]
+  },
+  {
+    "name": "fun showReward(activity: Activity, onSuccess: () -> Unit? = null)",
+    "description": "com.benkkstudios.ads.core.BeeAds.Companion.showReward",
+    "location": "core/com.benkkstudios.ads.core/-bee-ads/-companion/show-reward.html",
+    "searchKeys": [
+      "showReward",
+      "fun showReward(activity: Activity, onSuccess: () -> Unit? = null)",
+      "com.benkkstudios.ads.core.BeeAds.Companion.showReward"
+    ]
+  },
+  {
+    "name": "fun valueOf(value: String): AdsCompany",
+    "description": "com.benkkstudios.ads.core.AdsCompany.valueOf",
+    "location": "core/com.benkkstudios.ads.core/-ads-company/value-of.html",
+    "searchKeys": [
+      "valueOf",
+      "fun valueOf(value: String): AdsCompany",
+      "com.benkkstudios.ads.core.AdsCompany.valueOf"
+    ]
+  },
+  {
+    "name": "fun valueOf(value: String): BannerSize",
+    "description": "com.benkkstudios.ads.core.BannerSize.valueOf",
+    "location": "core/com.benkkstudios.ads.core/-banner-size/value-of.html",
+    "searchKeys": [
+      "valueOf",
+      "fun valueOf(value: String): BannerSize",
+      "com.benkkstudios.ads.core.BannerSize.valueOf"
+    ]
+  },
+  {
+    "name": "fun valueOf(value: String): NativeSize",
+    "description": "com.benkkstudios.ads.core.enums.NativeSize.valueOf",
+    "location": "core/com.benkkstudios.ads.core.enums/-native-size/value-of.html",
+    "searchKeys": [
+      "valueOf",
+      "fun valueOf(value: String): NativeSize",
+      "com.benkkstudios.ads.core.enums.NativeSize.valueOf"
+    ]
+  },
+  {
+    "name": "fun valueOf(value: String): ProviderType",
+    "description": "com.benkkstudios.ads.core.enums.ProviderType.valueOf",
+    "location": "core/com.benkkstudios.ads.core.enums/-provider-type/value-of.html",
+    "searchKeys": [
+      "valueOf",
+      "fun valueOf(value: String): ProviderType",
+      "com.benkkstudios.ads.core.enums.ProviderType.valueOf"
+    ]
+  },
+  {
+    "name": "fun values(): Array<AdsCompany>",
+    "description": "com.benkkstudios.ads.core.AdsCompany.values",
+    "location": "core/com.benkkstudios.ads.core/-ads-company/values.html",
+    "searchKeys": [
+      "values",
+      "fun values(): Array<AdsCompany>",
+      "com.benkkstudios.ads.core.AdsCompany.values"
+    ]
+  },
+  {
+    "name": "fun values(): Array<BannerSize>",
+    "description": "com.benkkstudios.ads.core.BannerSize.values",
+    "location": "core/com.benkkstudios.ads.core/-banner-size/values.html",
+    "searchKeys": [
+      "values",
+      "fun values(): Array<BannerSize>",
+      "com.benkkstudios.ads.core.BannerSize.values"
+    ]
+  },
+  {
+    "name": "fun values(): Array<NativeSize>",
+    "description": "com.benkkstudios.ads.core.enums.NativeSize.values",
+    "location": "core/com.benkkstudios.ads.core.enums/-native-size/values.html",
+    "searchKeys": [
+      "values",
+      "fun values(): Array<NativeSize>",
+      "com.benkkstudios.ads.core.enums.NativeSize.values"
+    ]
+  },
+  {
+    "name": "fun values(): Array<ProviderType>",
+    "description": "com.benkkstudios.ads.core.enums.ProviderType.values",
+    "location": "core/com.benkkstudios.ads.core.enums/-provider-type/values.html",
+    "searchKeys": [
+      "values",
+      "fun values(): Array<ProviderType>",
+      "com.benkkstudios.ads.core.enums.ProviderType.values"
+    ]
+  },
+  {
+    "name": "fun width(activity: Activity): Int",
+    "description": "com.benkkstudios.ads.core.BannerSize.width",
+    "location": "core/com.benkkstudios.ads.core/-banner-size/width.html",
+    "searchKeys": [
+      "width",
+      "fun width(activity: Activity): Int",
+      "com.benkkstudios.ads.core.BannerSize.width"
+    ]
+  },
+  {
+    "name": "inline fun <T : BaseFactory> primaryProvider(manager: T): BeeAds.Bulder",
+    "description": "com.benkkstudios.ads.core.BeeAds.Bulder.primaryProvider",
+    "location": "core/com.benkkstudios.ads.core/-bee-ads/-bulder/primary-provider.html",
+    "searchKeys": [
+      "primaryProvider",
+      "inline fun <T : BaseFactory> primaryProvider(manager: T): BeeAds.Bulder",
+      "com.benkkstudios.ads.core.BeeAds.Bulder.primaryProvider"
+    ]
+  },
+  {
+    "name": "inline fun <T : BaseFactory> secondProvider(manager: T): BeeAds.Bulder",
+    "description": "com.benkkstudios.ads.core.BeeAds.Bulder.secondProvider",
+    "location": "core/com.benkkstudios.ads.core/-bee-ads/-bulder/second-provider.html",
+    "searchKeys": [
+      "secondProvider",
+      "inline fun <T : BaseFactory> secondProvider(manager: T): BeeAds.Bulder",
+      "com.benkkstudios.ads.core.BeeAds.Bulder.secondProvider"
+    ]
+  },
+  {
+    "name": "object AdsConstant",
+    "description": "com.benkkstudios.ads.core.AdsConstant",
+    "location": "core/com.benkkstudios.ads.core/-ads-constant/index.html",
+    "searchKeys": [
+      "AdsConstant",
+      "object AdsConstant",
+      "com.benkkstudios.ads.core.AdsConstant"
+    ]
+  },
+  {
+    "name": "object Companion",
+    "description": "com.benkkstudios.ads.core.BeeAds.Companion",
+    "location": "core/com.benkkstudios.ads.core/-bee-ads/-companion/index.html",
+    "searchKeys": [
+      "Companion",
+      "object Companion",
+      "com.benkkstudios.ads.core.BeeAds.Companion"
+    ]
+  },
+  {
+    "name": "open class ProviderUnit(var key: String = \"\", var banner: String = \"\", var interstitial: String = \"\", var native: String = \"\", var open: String = \"\", var reward: String = \"\")",
+    "description": "com.benkkstudios.ads.core.provider.ProviderUnit",
+    "location": "core/com.benkkstudios.ads.core.provider/-provider-unit/index.html",
+    "searchKeys": [
+      "ProviderUnit",
+      "open class ProviderUnit(var key: String = \"\", var banner: String = \"\", var interstitial: String = \"\", var native: String = \"\", var open: String = \"\", var reward: String = \"\")",
+      "com.benkkstudios.ads.core.provider.ProviderUnit"
+    ]
+  },
+  {
+    "name": "open class SingletonHolder<out T, in A>(constructor: (A) -> T)",
+    "description": "com.benkkstudios.ads.core.base.SingletonHolder",
+    "location": "core/com.benkkstudios.ads.core.base/-singleton-holder/index.html",
+    "searchKeys": [
+      "SingletonHolder",
+      "open class SingletonHolder<out T, in A>(constructor: (A) -> T)",
+      "com.benkkstudios.ads.core.base.SingletonHolder"
+    ]
+  },
+  {
+    "name": "open class SingletonHolderSingle<out T>(constructor: () -> T)",
+    "description": "com.benkkstudios.ads.core.base.SingletonHolderSingle",
+    "location": "core/com.benkkstudios.ads.core.base/-singleton-holder-single/index.html",
+    "searchKeys": [
+      "SingletonHolderSingle",
+      "open class SingletonHolderSingle<out T>(constructor: () -> T)",
+      "com.benkkstudios.ads.core.base.SingletonHolderSingle"
+    ]
+  },
+  {
+    "name": "open class SingletonTriple<out T, in A, in B>(constructor: (A, B) -> T)",
+    "description": "com.benkkstudios.ads.core.base.SingletonTriple",
+    "location": "core/com.benkkstudios.ads.core.base/-singleton-triple/index.html",
+    "searchKeys": [
+      "SingletonTriple",
+      "open class SingletonTriple<out T, in A, in B>(constructor: (A, B) -> T)",
+      "com.benkkstudios.ads.core.base.SingletonTriple"
+    ]
+  },
+  {
+    "name": "open fun BannerCompose(size: BannerSize, onAdFailedToLoad: () -> Unit)",
+    "description": "com.benkkstudios.ads.core.base.BaseFactory.BannerCompose",
+    "location": "core/com.benkkstudios.ads.core.base/-base-factory/-banner-compose.html",
+    "searchKeys": [
+      "BannerCompose",
+      "open fun BannerCompose(size: BannerSize, onAdFailedToLoad: () -> Unit)",
+      "com.benkkstudios.ads.core.base.BaseFactory.BannerCompose"
+    ]
+  },
+  {
+    "name": "open fun NativeCompose(size: NativeSize, onAdFailedToLoad: () -> Unit)",
+    "description": "com.benkkstudios.ads.core.base.BaseFactory.NativeCompose",
+    "location": "core/com.benkkstudios.ads.core.base/-base-factory/-native-compose.html",
+    "searchKeys": [
+      "NativeCompose",
+      "open fun NativeCompose(size: NativeSize, onAdFailedToLoad: () -> Unit)",
+      "com.benkkstudios.ads.core.base.BaseFactory.NativeCompose"
+    ]
+  },
+  {
+    "name": "open fun init(activity: Activity, onInitializationComplete: () -> Unit? = null)",
+    "description": "com.benkkstudios.ads.core.base.BaseFactory.init",
+    "location": "core/com.benkkstudios.ads.core.base/-base-factory/init.html",
+    "searchKeys": [
+      "init",
+      "open fun init(activity: Activity, onInitializationComplete: () -> Unit? = null)",
+      "com.benkkstudios.ads.core.base.BaseFactory.init"
+    ]
+  },
+  {
+    "name": "open fun loadInterstitial(activity: Activity)",
+    "description": "com.benkkstudios.ads.core.base.BaseFactory.loadInterstitial",
+    "location": "core/com.benkkstudios.ads.core.base/-base-factory/load-interstitial.html",
+    "searchKeys": [
+      "loadInterstitial",
+      "open fun loadInterstitial(activity: Activity)",
+      "com.benkkstudios.ads.core.base.BaseFactory.loadInterstitial"
+    ]
+  },
+  {
+    "name": "open fun loadOpenAd(context: Context, onComplete: () -> Unit? = null)",
+    "description": "com.benkkstudios.ads.core.base.BaseFactory.loadOpenAd",
+    "location": "core/com.benkkstudios.ads.core.base/-base-factory/load-open-ad.html",
+    "searchKeys": [
+      "loadOpenAd",
+      "open fun loadOpenAd(context: Context, onComplete: () -> Unit? = null)",
+      "com.benkkstudios.ads.core.base.BaseFactory.loadOpenAd"
+    ]
+  },
+  {
+    "name": "open fun loadReward(activity: Activity)",
+    "description": "com.benkkstudios.ads.core.base.BaseFactory.loadReward",
+    "location": "core/com.benkkstudios.ads.core.base/-base-factory/load-reward.html",
+    "searchKeys": [
+      "loadReward",
+      "open fun loadReward(activity: Activity)",
+      "com.benkkstudios.ads.core.base.BaseFactory.loadReward"
+    ]
+  },
+  {
+    "name": "open var banner: String",
+    "description": "com.benkkstudios.ads.core.provider.ProviderUnit.banner",
+    "location": "core/com.benkkstudios.ads.core.provider/-provider-unit/banner.html",
+    "searchKeys": [
+      "banner",
+      "open var banner: String",
+      "com.benkkstudios.ads.core.provider.ProviderUnit.banner"
+    ]
+  },
+  {
+    "name": "open var interstitial: String",
+    "description": "com.benkkstudios.ads.core.provider.ProviderUnit.interstitial",
+    "location": "core/com.benkkstudios.ads.core.provider/-provider-unit/interstitial.html",
+    "searchKeys": [
+      "interstitial",
+      "open var interstitial: String",
+      "com.benkkstudios.ads.core.provider.ProviderUnit.interstitial"
+    ]
+  },
+  {
+    "name": "open var key: String",
+    "description": "com.benkkstudios.ads.core.provider.ProviderUnit.key",
+    "location": "core/com.benkkstudios.ads.core.provider/-provider-unit/key.html",
+    "searchKeys": [
+      "key",
+      "open var key: String",
+      "com.benkkstudios.ads.core.provider.ProviderUnit.key"
+    ]
+  },
+  {
+    "name": "open var native: String",
+    "description": "com.benkkstudios.ads.core.provider.ProviderUnit.native",
+    "location": "core/com.benkkstudios.ads.core.provider/-provider-unit/native.html",
+    "searchKeys": [
+      "native",
+      "open var native: String",
+      "com.benkkstudios.ads.core.provider.ProviderUnit.native"
+    ]
+  },
+  {
+    "name": "open var open: String",
+    "description": "com.benkkstudios.ads.core.provider.ProviderUnit.open",
+    "location": "core/com.benkkstudios.ads.core.provider/-provider-unit/open.html",
+    "searchKeys": [
+      "open",
+      "open var open: String",
+      "com.benkkstudios.ads.core.provider.ProviderUnit.open"
+    ]
+  },
+  {
+    "name": "open var reward: String",
+    "description": "com.benkkstudios.ads.core.provider.ProviderUnit.reward",
+    "location": "core/com.benkkstudios.ads.core.provider/-provider-unit/reward.html",
+    "searchKeys": [
+      "reward",
+      "open var reward: String",
+      "com.benkkstudios.ads.core.provider.ProviderUnit.reward"
+    ]
+  },
+  {
+    "name": "val entries: EnumEntries<AdsCompany>",
+    "description": "com.benkkstudios.ads.core.AdsCompany.entries",
+    "location": "core/com.benkkstudios.ads.core/-ads-company/entries.html",
+    "searchKeys": [
+      "entries",
+      "val entries: EnumEntries<AdsCompany>",
+      "com.benkkstudios.ads.core.AdsCompany.entries"
+    ]
+  },
+  {
+    "name": "val entries: EnumEntries<BannerSize>",
+    "description": "com.benkkstudios.ads.core.BannerSize.entries",
+    "location": "core/com.benkkstudios.ads.core/-banner-size/entries.html",
+    "searchKeys": [
+      "entries",
+      "val entries: EnumEntries<BannerSize>",
+      "com.benkkstudios.ads.core.BannerSize.entries"
+    ]
+  },
+  {
+    "name": "val entries: EnumEntries<NativeSize>",
+    "description": "com.benkkstudios.ads.core.enums.NativeSize.entries",
+    "location": "core/com.benkkstudios.ads.core.enums/-native-size/entries.html",
+    "searchKeys": [
+      "entries",
+      "val entries: EnumEntries<NativeSize>",
+      "com.benkkstudios.ads.core.enums.NativeSize.entries"
+    ]
+  },
+  {
+    "name": "val entries: EnumEntries<ProviderType>",
+    "description": "com.benkkstudios.ads.core.enums.ProviderType.entries",
+    "location": "core/com.benkkstudios.ads.core.enums/-provider-type/entries.html",
+    "searchKeys": [
+      "entries",
+      "val entries: EnumEntries<ProviderType>",
+      "com.benkkstudios.ads.core.enums.ProviderType.entries"
+    ]
+  },
+  {
+    "name": "val height: Int",
+    "description": "com.benkkstudios.ads.core.BannerSize.BannerSizeModel.height",
+    "location": "core/com.benkkstudios.ads.core/-banner-size/-banner-size-model/height.html",
+    "searchKeys": [
+      "height",
+      "val height: Int",
+      "com.benkkstudios.ads.core.BannerSize.BannerSizeModel.height"
+    ]
+  },
+  {
+    "name": "val openAdsShowing: AtomicBoolean",
+    "description": "com.benkkstudios.ads.core.manager.openAdsShowing",
+    "location": "core/com.benkkstudios.ads.core.manager/open-ads-showing.html",
+    "searchKeys": [
+      "openAdsShowing",
+      "val openAdsShowing: AtomicBoolean",
+      "com.benkkstudios.ads.core.manager.openAdsShowing"
+    ]
+  },
+  {
+    "name": "val provider: AdsCompany",
+    "description": "com.benkkstudios.ads.core.base.BaseFactory.provider",
+    "location": "core/com.benkkstudios.ads.core.base/-base-factory/provider.html",
+    "searchKeys": [
+      "provider",
+      "val provider: AdsCompany",
+      "com.benkkstudios.ads.core.base.BaseFactory.provider"
+    ]
+  },
+  {
+    "name": "val width: Int",
+    "description": "com.benkkstudios.ads.core.BannerSize.BannerSizeModel.width",
+    "location": "core/com.benkkstudios.ads.core/-banner-size/-banner-size-model/width.html",
+    "searchKeys": [
+      "width",
+      "val width: Int",
+      "com.benkkstudios.ads.core.BannerSize.BannerSizeModel.width"
+    ]
+  },
+  {
+    "name": "var DEBUG_MODE: Boolean",
+    "description": "com.benkkstudios.ads.core.AdsConstant.DEBUG_MODE",
+    "location": "core/com.benkkstudios.ads.core/-ads-constant/-d-e-b-u-g_-m-o-d-e.html",
+    "searchKeys": [
+      "DEBUG_MODE",
+      "var DEBUG_MODE: Boolean",
+      "com.benkkstudios.ads.core.AdsConstant.DEBUG_MODE"
+    ]
+  },
+  {
+    "name": "var MAX_NATIVE_VARIANT: Int",
+    "description": "com.benkkstudios.ads.core.AdsConstant.MAX_NATIVE_VARIANT",
+    "location": "core/com.benkkstudios.ads.core/-ads-constant/-m-a-x_-n-a-t-i-v-e_-v-a-r-i-a-n-t.html",
+    "searchKeys": [
+      "MAX_NATIVE_VARIANT",
+      "var MAX_NATIVE_VARIANT: Int",
+      "com.benkkstudios.ads.core.AdsConstant.MAX_NATIVE_VARIANT"
+    ]
+  },
+  {
+    "name": "var application: Application?",
+    "description": "com.benkkstudios.ads.core.BeeAds.Bulder.application",
+    "location": "core/com.benkkstudios.ads.core/-bee-ads/-bulder/application.html",
+    "searchKeys": [
+      "application",
+      "var application: Application?",
+      "com.benkkstudios.ads.core.BeeAds.Bulder.application"
+    ]
+  },
+  {
+    "name": "var interval: Int",
+    "description": "com.benkkstudios.ads.core.BeeAds.Bulder.interval",
+    "location": "core/com.benkkstudios.ads.core/-bee-ads/-bulder/interval.html",
+    "searchKeys": [
+      "interval",
+      "var interval: Int",
+      "com.benkkstudios.ads.core.BeeAds.Bulder.interval"
+    ]
+  },
+  {
+    "name": "var isInitialized: MutableStateFlow<Boolean>",
+    "description": "com.benkkstudios.ads.core.BeeAds.Companion.isInitialized",
+    "location": "core/com.benkkstudios.ads.core/-bee-ads/-companion/is-initialized.html",
+    "searchKeys": [
+      "isInitialized",
+      "var isInitialized: MutableStateFlow<Boolean>",
+      "com.benkkstudios.ads.core.BeeAds.Companion.isInitialized"
+    ]
+  },
+  {
+    "name": "var providers: EnumMap<ProviderType, BaseFactory>",
+    "description": "com.benkkstudios.ads.core.BeeAds.Bulder.providers",
+    "location": "core/com.benkkstudios.ads.core/-bee-ads/-bulder/providers.html",
+    "searchKeys": [
+      "providers",
+      "var providers: EnumMap<ProviderType, BaseFactory>",
+      "com.benkkstudios.ads.core.BeeAds.Bulder.providers"
+    ]
+  },
+  {
+    "name": "var unit: ProviderUnit",
+    "description": "com.benkkstudios.ads.core.base.BaseFactory.unit",
+    "location": "core/com.benkkstudios.ads.core.base/-base-factory/unit.html",
+    "searchKeys": [
+      "unit",
+      "var unit: ProviderUnit",
+      "com.benkkstudios.ads.core.base.BaseFactory.unit"
+    ]
+  }
+]
