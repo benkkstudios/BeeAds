@@ -3,6 +3,9 @@ plugins {
     alias(libs.plugins.jetbrains.kotlin.android)
 }
 
+group = 'com.github.benkkstudios.ads'
+version = '1.0.6'
+
 android {
     namespace 'com.benkkstudios.ads.ratingbar'
     compileSdk 34
