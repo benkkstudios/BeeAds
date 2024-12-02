@@ -1,6 +1,36 @@
-apply from: "${rootProject.projectDir}/library.gradle"
+plugins {
+    alias(libs.plugins.android.library)
+    alias(libs.plugins.jetbrains.kotlin.android)
+    id 'maven-publish'
+}
+
 android {
     namespace 'com.benkkstudios.ads.shared'
+    compileSdk 34
+
+    defaultConfig {
+        minSdk 24
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
     buildFeatures {
         compose = true
         buildConfig = true
@@ -21,4 +51,17 @@ dependencies {
     api libs.androidx.ui.viewbinding
     api libs.material3
     implementation libs.play.services.ads
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.github.benkkstudios'
+                artifactId = 'ads-shared'
+                version = '1.0.6'
+            }
+        }
+    }
 }
