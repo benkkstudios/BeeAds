@@ -1,11 +1,13 @@
+
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.jetbrains.kotlin.android)
-    id 'maven-publish'
+    id "com.vanniktech.maven.publish"
 }
 
-group = 'com.github.benkkstudios.ads'
-version = '1.0.6'
+mavenPublishing {
+    coordinates("com.benkkstudios.ads", "yandex", "1.0.6")
+}
 
 android {
     namespace 'com.benkkstudios.ads.yandex'
@@ -46,17 +48,4 @@ android {
 dependencies {
     implementation(project(":shared"))
     implementation libs.mobileads
-}
-
-afterEvaluate {
-    publishing {
-        publications {
-            release(MavenPublication) {
-                from components.release
-                groupId = 'com.github.benkkstudios.ads'
-                artifactId = 'yandex'
-                version = '1.0.6'
-            }
-        }
-    }
 }

@@ -1,11 +1,13 @@
+
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.jetbrains.kotlin.android)
-    id 'maven-publish'
+    id "com.vanniktech.maven.publish"
 }
 
-group = 'com.github.benkkstudios.ads'
-version = '1.0.6'
+mavenPublishing {
+    coordinates("com.benkkstudios.ads", "admob", "1.0.6")
+}
 
 android {
     namespace 'com.benkkstudios.ads.admob'
@@ -44,15 +46,3 @@ dependencies {
     compileOnly libs.play.services.ads
 }
 
-afterEvaluate {
-    publishing {
-        publications {
-            release(MavenPublication) {
-                from components.release
-                groupId = 'com.github.benkkstudios.ads'
-                artifactId = 'admob'
-                version = '1.0.6'
-            }
-        }
-    }
-}

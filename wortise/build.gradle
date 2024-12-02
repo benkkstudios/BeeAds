@@ -1,11 +1,14 @@
+import com.vanniktech.maven.publish.AndroidSingleVariantLibrary
+
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.jetbrains.kotlin.android)
-    id 'maven-publish'
+    id "com.vanniktech.maven.publish"
 }
 
-group = 'com.github.benkkstudios.ads'
-version = '1.0.6'
+mavenPublishing {
+    coordinates("com.benkkstudios.ads", "wortise", "1.0.6")
+}
 
 android {
     namespace 'com.benkkstudios.ads.wortise'
@@ -43,17 +46,4 @@ android {
 dependencies {
     implementation(project(":shared"))
     implementation libs.wortise.android.sdk
-}
-
-afterEvaluate {
-    publishing {
-        publications {
-            release(MavenPublication) {
-                from components.release
-                groupId = 'com.github.benkkstudios.ads'
-                artifactId = 'wortise'
-                version = '1.0.6'
-            }
-        }
-    }
 }

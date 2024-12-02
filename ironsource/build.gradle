@@ -1,11 +1,14 @@
+import com.vanniktech.maven.publish.AndroidSingleVariantLibrary
+
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.jetbrains.kotlin.android)
-    id 'maven-publish'
+    id "com.vanniktech.maven.publish"
 }
 
-group = 'com.github.benkkstudios.ads'
-version = '1.0.6'
+mavenPublishing {
+    coordinates("com.benkkstudios.ads", "iron", "1.0.6")
+}
 
 android {
     namespace 'com.benkkstudios.ads.iron'
@@ -46,17 +49,4 @@ dependencies {
     implementation libs.play.services.appset
     implementation libs.play.services.ads.identifier
     implementation libs.play.services.basement
-}
-
-afterEvaluate {
-    publishing {
-        publications {
-            release(MavenPublication) {
-                from components.release
-                groupId = 'com.github.benkkstudios.ads'
-                artifactId = 'iron'
-                version = '1.0.6'
-            }
-        }
-    }
 }
