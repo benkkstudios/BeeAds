@@ -1,7 +1,6 @@
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.jetbrains.kotlin.android)
-    id 'maven-publish'
 }
 
 android {
@@ -51,17 +50,4 @@ dependencies {
     api libs.androidx.ui.viewbinding
     api libs.material3
     implementation libs.play.services.ads
-}
-
-afterEvaluate {
-    publishing {
-        publications {
-            release(MavenPublication) {
-                from components.release
-                groupId = 'com.github.benkkstudios'
-                artifactId = 'ads-shared'
-                version = '1.0.6'
-            }
-        }
-    }
 }

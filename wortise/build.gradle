@@ -47,8 +47,8 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.github.benkkstudios'
-                artifactId = 'ads-wortise'
+                groupId = 'com.github.benkkstudios.ads'
+                artifactId = 'wortise'
                 version = '1.0.6'
             }
         }

@@ -50,8 +50,8 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.github.benkkstudios'
-                artifactId = 'ads-yandex'
+                groupId = 'com.github.benkkstudios.ads'
+                artifactId = 'yandex'
                 version = '1.0.6'
             }
         }

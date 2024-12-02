@@ -46,8 +46,8 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                groupId = 'com.github.benkkstudios'
-                artifactId = 'ads-max'
+                groupId = 'com.github.benkkstudios.ads'
+                artifactId = 'max'
                 version = '1.0.6'
             }
         }

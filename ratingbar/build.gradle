@@ -1,7 +1,6 @@
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.jetbrains.kotlin.android)
-    id 'maven-publish'
 }
 
 android {
@@ -37,17 +36,4 @@ android {
 
 dependencies {
     implementation libs.androidx.appcompat
-}
-
-afterEvaluate {
-    publishing {
-        publications {
-            release(MavenPublication) {
-                from components.release
-                groupId = 'com.github.benkkstudios'
-                artifactId = 'ads-ratebar'
-                version = '1.0.6'
-            }
-        }
-    }
 }
